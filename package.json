@@ -2,10 +2,15 @@
   "name": "via-trailer",
   "version": "1.0.0",
   "description": "via-trailer API",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ramasagala",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-fetch": "^2.1.2",
+    "ramda": "^0.25.0"
+  }
 }
