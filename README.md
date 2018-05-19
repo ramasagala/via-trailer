@@ -1,7 +1,7 @@
 # via-trailer
 Gives URL to movie trailer, fetched from TheMovieDB (https://www.themoviedb.org/)
 
-## setup
+## Setup
 ```
 $ git clone https://github.com/ramasagala/via-trailer.git
 $ cd via-trailer
@@ -34,3 +34,5 @@ Implemented using node.js (v10.1.0)
 HTTP routing using `express.js`
 
 Unit Test using `mocha` + `chai`
+
+Map-reduce utility library using `Ramda.js`
