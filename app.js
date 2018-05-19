@@ -1,7 +1,7 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
-var trailersController = require('./components/trailers/trailersController');
+const trailersController = require('./components/trailers/trailersController');
 app.use('/trailer', trailersController);
 
 module.exports = app;

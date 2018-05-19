@@ -1,6 +1,7 @@
 const trailersLib = require("../components/trailers/trailersLib");
 const config = require("../config");
 const chai = require("chai");
+
 const expect = chai.expect;
 const lib = new trailersLib(config);
 
@@ -21,7 +22,6 @@ describe("trailers Lib TEST", ()=>{
     describe("getTmdbId", ()=>{
         it("should return TMDB ID", async ()=>{
             const result = await lib.getTmdbId(viaplay_url_1);
-            //console.log(result);
             expect(result).to.equal(tmdb_id_1);
         })
     });
@@ -29,7 +29,6 @@ describe("trailers Lib TEST", ()=>{
     describe("getTrailerUrl", ()=>{
         it("should return Trailer URL", async ()=>{
             const result = await lib.getTrailerUrl(viaplay_url_1);
-            //console.log(result);
             expect(result).to.contain(trailer_url_1);
         })
     });
