@@ -3,7 +3,7 @@ Gives URL to movie trailer, fetched from TheMovieDB (https://www.themoviedb.org/
 
 ## setup
 ```
-$ git clone https://github.com/fredrikj/via-trailer.git
+$ git clone https://github.com/ramasagala/via-trailer.git
 $ cd via-trailer
 $ npm install
 $ npm test
