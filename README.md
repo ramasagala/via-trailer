@@ -29,6 +29,8 @@ will return:
 ```
 
 ## Dependencies
-Implemented using node.js (v10.1.0).
-HTTP routing using express.js
-Unit Test using mocha + chai
+Implemented using node.js (v10.1.0)
+
+HTTP routing using `express.js`
+
+Unit Test using `mocha` + `chai`
