@@ -10,7 +10,8 @@ $ npm test
 $ npm start
 ```
 Default url: http://localhost:3005
-port could be setup in `config.js`
+
+Default application settings (e.g. port, api key, api url) could be configured in `config.js`
 
 ## GET /trailer/:viaplay_url
 Takes a viaplay movie resource URL as an input (e.g. https://content.viaplay.se/pc-se/film/arrival-2016), and returns list of trailer video URLs
