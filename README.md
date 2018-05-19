@@ -12,8 +12,8 @@ $ npm start
 Default url: http://localhost:3005
 port could be setup in `config.js`
 
-### GET /trailer/:viaplay_url
-Takes a viaplay movie resource URL as an input, return list of trailer video URLs
+## GET /trailer/:viaplay_url
+Takes a viaplay movie resource URL as an input (e.g. https://content.viaplay.se/pc-se/film/arrival-2016), and returns list of trailer video URLs
 
 example: 
 ```GET http://localhost:3005/trailer/https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Ffilm%2Farrival-2016```
@@ -27,3 +27,7 @@ will return:
 ]
 ```
 
+## Dependencies
+Implemented using node.js (v10.1.0).
+HTTP routing using express.js
+Unit Test using mocha + chai
