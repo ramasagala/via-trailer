@@ -4,12 +4,14 @@
   "description": "via-trailer API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "author": "ramasagala",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.1.2",
     "express": "^4.16.3",
+    "mocha": "^5.2.0",
     "node-fetch": "^2.1.2",
     "ramda": "^0.25.0"
   }

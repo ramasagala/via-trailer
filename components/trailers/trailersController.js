@@ -1,9 +1,13 @@
+const trailersLib = require("./trailersLib");
+const config = require("../../config")
 const express = require('express');
-const lib = require("./trailersLib");
 
 const router = express.Router();
+const lib = new trailersLib(config);
 
-// GETS A SINGLE CAR FROM THE DATABASE
+/**
+ * GET list of trailers given a movie's viaplay resource url
+ */
 router.get('/:movie_url', async (req, res, next) => {    
     try{
         const links = await lib.getTrailerUrl(req.params.movie_url);
